@@ -83,7 +83,7 @@ print("Hello world")
 ### 1.3 anaconda + pycharm/vscode(20分+10分)
 1. 在pycharm或vscode中配置anaconda，注意要先安装anaconda再安装pycharm，否则可能出现python环境冲突的问题。运行附件中[regression.py](files\regression.py)并将程序输出结果以图片或文本文件形式上传。
 
-2. 请解释[regression.py](files\regression.py)的程序内容(可以使用AI辅助理解)，并谈谈这种线性回归方法对量化投资的启示
+2. 请解释[regression.py](files/regression.py)的程序内容(可以使用AI辅助理解)，并谈谈这种线性回归方法对量化投资的启示
 
 ## 2 量化投资知识理解与运用(70分)
 
@@ -92,7 +92,7 @@ print("Hello world")
 
 [Introduction to Alphas](https://platform.worldquantbrain.com/learn/documentation/discover-brain/about-brain-platform),如需注册Brain平台账号，请扫描以下顾问邀请码注册:
 
-![Referral QRcode](files\referral.jpg)
+![Referral QRcode](files/referral.jpg)
 
 [Understand Results \[1/2\]](https://platform.worldquantbrain.com/learn/documentation/discover-brain/intermediate-pack-part-1)
 
@@ -160,7 +160,7 @@ WorldQuant Brain平台提供了良好的回测平台、因子表达式以及量�
 
 提交样例：
 
-![](files\alpha.png)
+![](files/alpha.png)
 
 2. 请说明你构造的因子中的数据字段含义、操作符及表达式含义、经济学意义(做多具有哪些特征的股票，做空具有哪些特征的股票)。本题给分较宽松，能大致阐明操作意图即可，我们不要求回答出过分超出大一学生认知的内容，例如示例中的滞后项等内容。
 
