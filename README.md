@@ -134,17 +134,17 @@ __12.分位数组合测试(Group Test):__
 
 $$accuracy = 1 - \frac{|label_{t+1} - predict_{t+1}|}{label_{t+1}} $$
 
-其中，$label_{t+1}$表示t+1时刻的目标值，$predict_{t+1}$表示t+1时刻的预测值。请分析以下哪些指标适合作为预测的目标，并阐述原因：
+其中，$$label_{t+1}$$表示t+1时刻的目标值，$$predict_{t+1}$$表示t+1时刻的预测值。请分析以下哪些指标适合作为预测的目标，并阐述原因：
 
-1. 收盘价$close_{t+1}$
+1. 收盘价$$close_{t+1}$$
 
-2. 收益率1(计算公式：$return_{t} = \frac{close_{t+1}-close_{t}}{close_t}$),即明天的收盘价相对于今天的收盘价的变化率
+2. 收益率1(计算公式：$$return_{t} = \frac{close_{t+1}-close_{t}}{close_t}$$),即明天的收盘价相对于今天的收盘价的变化率
 
-3. 收益率2(计算公式：$return_{t+1} = \frac{close_{t+2}-close_{t+1}}{close_t+1}$),即后天的收盘价相对于明天的收盘价的变化率
+3. 收益率2(计算公式：$$return_{t+1} = \frac{close_{t+2}-close_{t+1}}{close_t+1}$$),即后天的收盘价相对于明天的收盘价的变化率
 
-4. 收盘价的对数$log(close_{t+1})$
+4. 收盘价的对数$$log(close_{t+1})$$
 
-5. 对数收益率(计算公式${lreturn}_t = log(\frac{close_{t+1}}{close_{t}})$)
+5. 对数收益率(计算公式$${lreturn}_t = log(\frac{close_{t+1}}{close_{t}})$$)
 
 注：本题注重言之有理。在解释合理的情况下，选择任意选项均有可能获得满分。
 
