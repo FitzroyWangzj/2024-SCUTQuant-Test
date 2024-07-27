@@ -81,7 +81,7 @@ print("Hello world")
 完成后，请将main.ipynb上传。
 
 ### 1.3 anaconda + pycharm/vscode(20分+10分)
-1. 在pycharm或vscode中配置anaconda，注意要先安装anaconda再安装pycharm，否则可能出现python环境冲突的问题。运行附件中[regression.py](files\regression.py)并将程序输出结果以图片或文本文件形式上传。
+1. 在pycharm或vscode中配置anaconda，注意要先安装anaconda再安装pycharm，否则可能出现python环境冲突的问题。运行附件中[regression.py](files/regression.py)并将程序输出结果以图片或文本文件形式上传。
 
 2. 请解释[regression.py](files/regression.py)的程序内容(可以使用AI辅助理解)，并谈谈这种线性回归方法对量化投资的启示
 
