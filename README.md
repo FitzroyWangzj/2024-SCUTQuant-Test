@@ -87,8 +87,12 @@ print("Hello world")
 
 ## 2 量化投资知识理解与运用(70分)
 
-### 2.1 名词解释(12分，1词1分)
+### 2.1 名词解释(可自选小题作答，封顶15分，1词1分)
 本题参考资料:
+
+[写给你的金融时间序列分析:基础篇](https://mp.weixin.qq.com/s/qcADSWsbz6BE7TBKC-zv6g)
+
+[写给你的金融时间序列分析:初级篇](https://mp.weixin.qq.com/s/d0eK5PjPeXQ3F_5f6Mq3jw)
 
 [Introduction to Alphas](https://platform.worldquantbrain.com/learn/documentation/discover-brain/about-brain-platform),如需注册Brain平台账号，请扫描以下顾问邀请码注册:
 
@@ -104,31 +108,47 @@ __1.因子(alpha):__
 
 __2.收益率(return):__
 
-__3.多因子模型:__
+__3.对冲(Hedge):__
 
-__4.回归(regression):__
+__4.套利(Arbitrage):__
 
-__5.夏普比率(Sharpe Ratio):__
+__5.资本资产定价模型(CAPM):__
 
-__6.信息比率(Information Ratio, IR):__
+__6.套利定价模型(APT):__
 
-__7.信息系数(Information Coefficient, IC):__
+__7.Fama-French三因子模型:__
 
-__8.换手率(Turnover):__
+__8.多因子模型:__
 
-__9.RankIC:__
+__9.回归(regression):__
 
-__10.ICIR:__
+__10.夏普比率(Sharpe Ratio):__
 
-__11.最大回撤(Max Drawdown):__
+__11.信息比率(Information Ratio, IR):__
 
-__12.分位数组合测试(Group Test):__
+__12.信息系数(Information Coefficient, IC):__
+
+__13.换手率(Turnover):__
+
+__14.RankIC:__
+
+__15.ICIR:__
+
+__16.最大回撤(Max Drawdown):__
+
+__17.分位数组合测试(Group Test):__
+
+__18.自相关性(Autocorrelation):__
 
 ### 2.2 关于目标值的探究(15分)
 
 参考资料：
 
 [答读者问](https://mp.weixin.qq.com/s/8k6HxwZTOLQw_LJe38XdSw)
+
+[写给你的金融时间序列分析:基础篇](https://mp.weixin.qq.com/s/qcADSWsbz6BE7TBKC-zv6g)
+
+[写给你的金融时间序列分析:初级篇](https://mp.weixin.qq.com/s/d0eK5PjPeXQ3F_5f6Mq3jw)
 
 本题中，不妨定义预测准确率如下：
 
@@ -157,15 +177,15 @@ $$
 
 注：本题注重言之有理。在解释合理的情况下，选择任意选项均有可能获得满分。
 
-### 2.3 因子挖掘实践(共2小题，43分)
+### 2.3 因子挖掘实践(共2小题，40分)
 
-1. 本题需借助WorldQuant Brain平台完成，因此请通过2.1的二维码注册账号。(23分)
+1. 本题需借助WorldQuant Brain平台完成，因此请通过2.1的二维码注册账号。
 
 其他参考资料：
 
 [WorldQuant Brain中文论坛](https://support.worldquantbrain.com/hc/en-us/community/posts/19273239621399--Alpha%E7%81%B5%E6%84%9F%E5%90%AF%E7%A4%BA%E5%BD%95-%E5%90%88%E9%9B%86-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%E6%94%B6%E5%BD%95%E4%B8%AD)
 
-WorldQuant Brain平台提供了良好的回测平台、因子表达式以及量化投资学习社区，是学习量化研究的好工具。请在WorldQuant Brain平台构建一个可提交(如下图所示，Submit Alpha按键为绿)的因子，并截图上传(截图需包含因子表达式以及可提交信息，如样例所示)。上传一个表现较好但不可提交的因子也可以在本题得分，但是需要提供相应的测试结果(即PnL及IS Summary)。
+WorldQuant Brain平台提供了良好的回测平台、因子表达式以及量化投资学习社区，是学习量化研究的好工具。请在WorldQuant Brain平台构建一个可提交(如下图所示，Submit Alpha按键为绿)的因子，并截图上传(截图需包含因子表达式以及可提交信息，如样例所示)。上传一个表现较好但不可提交的因子也可以在本题得分，但是需要提供相应的测试结果(即PnL及IS Summary)。(20分)
 
 提交样例：
 
