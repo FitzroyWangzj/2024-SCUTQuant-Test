@@ -152,7 +152,7 @@ __18.自相关性(Autocorrelation):__
 
 本题中，不妨定义预测准确率如下：
 
-$$accuracy = 1 - \frac{|label_{t+1} - predict_{t+1}|}{label_{t+1}} $$
+$$accuracy = - (label_{t+1} - predict_{t+1})^2 $$
 
 其中，$$label_{t+1}$$ 表示t+1时刻的目标值，$$predict_{t+1}$$ 表示t+1时刻的预测值。请分析以下哪些指标适合作为预测的目标，并阐述原因：
 
